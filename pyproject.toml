@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sloth-ci-validators-gitea"
+version = "1.0.0"
+description = "Gitea validator for Sloth CI"
+authors = ["Constantine Molchanov <moigagoo@live.com>", "Valentin Heinz <inktrap@inktrap.org"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sloth_ci"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sloth-ci = "^2.1.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
