@@ -2,7 +2,8 @@
 name = "sloth-ci-validators-gitea"
 version = "1.0.0"
 description = "Gitea validator for Sloth CI"
-authors = ["Constantine Molchanov <moigagoo@live.com>", "Valentin Heinz <inktrap@inktrap.org"]
+
+authors = ["Valentin Heinz <inktrap@inktrap.org", "Constantine Molchanov <moigagoo@live.com>", "Vladimir Akritskiy"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "sloth_ci"}]
